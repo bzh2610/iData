@@ -1,0 +1,89 @@
+--08/09/13--
+*Initial release
+*User accounts
+*Upload of .txt files
+*100Mo /user and 5Mo /file
+
+--26/09/2013--
+*Reminders
+*MyAccount : Personnal account manager
+*Text Editor
+
+--10/10/2013--
+*Folders are working + move button
+*Better design for "Mydocs" with small screens and mobiles
+*Online document creation for .txt and .idc
+*HTTPS (home certificat)
+*1Go/user and 500Mo /file
+*All types of files are allowed (except php)
+*Graph for MyAccount
+*Difference between files shared and private (orange - grey)
+
+--25/10/13--
+*The site has been fully redesigned
+--26/10/13--
+*Lighter design (menu)
+
+--01/11/13--
+*Security faults patched.
+*Block .php3 files
+
+--06/11/2013--
+*Security faults patched in text editor.
+*Paypal payment
+*Premium account with 50/100/200Go
+*Premium code validation
+*New header for connected users
+
+--07/11/2013--
+*Settings tab for connected users
+*Change password
+*Link to activate coupon on 'plans' page
+*Blank page corrected with text editor while opening an incorect file (inexistant or different of .txt)
+
+--08/11/2013--
+*Using cookies for loging in easily
+
+--10/11/2013--
+*Bug corrected : username not set when loging in with cookies
+*Speed improvment : everything is stored on Hard Drives
+
+--13/11/2013--
+* French for :
+-plans.fr
+-premium.php
+-signup result
+-signup mail
+
+--14/11/2013--
+*Logout, settings on top bar
+*"Publicdownload" check if the file exist before giving a dl link.
+
+--17/11/2013--
+*HTML confirmation email
+*javascript improvment for mydocs
+
+--23/11/2013--
+*Error patched on settings.php (account accidental deletion)
+*Erasing and account deleting procedur simplified
+*Header unified for French users
+*Settings.php in French
+*Signin pop-up
+*Mydocs is available in French
+
+--15/12/2013--
+*Contextual menu removed on files : replaced by options for file editing -> only del for the mmnt.
+
+--16/12/2013--
+*User can cancel file sharing
+*Sharing and renaming using contextual menu
+*File name displays on contextual menu
+*Popup giving the file sharing URL fixed on FR version.
+
+--11/02/2014--
+*Contextual menu include proprieties (file width)
+->Crypt/Uncrypt option using AES
+->Cancel sharing
+->Delete
+*Full mobile version (mydocs..)
+*Contextual menu background to create a new folder / document or upload

@@ -1,0 +1,29 @@
+a img {
+border: none;
+padding-bottom: 2px;
+padding-right: 3px;
+}
+
+.prespics
+{
+width: 100px;
+}
+
+
+table
+{
+border-collapse: collapse;
+font-size: 25px;
+font-family: 'Century Gothic', Arial;
+color: rgb(190,190,190);
+text-align: center;
+margin: auto;
+}
+
+td, th
+{
+padding: 5px;
+border: 2px solid rgb(190,190,190);
+}
+
+

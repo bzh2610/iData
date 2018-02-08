@@ -1,0 +1,740 @@
+a img {
+border: none;
+}
+
+img
+{
+padding-bottom: 2px;
+padding-right: 3px;
+}
+
+.warningbody
+{
+font-family: "Century Gothic", Arial;
+color: rgb(180,180,180);
+background-color: rgb(245,245,245);
+}
+
+.ordernow
+{
+width : 100px;
+}
+
+
+.tableaccount
+{
+font-family: "Century Gothic", Arial;
+width : 90%;
+margin-left: 5%;
+text-align: center;
+}
+
+.tableaccount table
+{
+border-collapse : collapse; 
+}
+
+
+.tableaccount th, td
+{
+ border: 2px solid black; 
+}
+
+
+
+.premiumtable td, th
+{
+width: 120px;
+height: 70px;
+border: 2px solid white;  
+}
+
+.premiumtable
+{
+border-collapse : collapse;
+}
+
+
+.editorbutton
+{
+background: transparent;
+border: 0px;
+cursor: pointer;
+display:block;
+width:100px;
+color:white;
+text-decoration:none;
+font-size: 16px;
+padding:5px;
+}
+
+.editorbutton:hover {
+color:#09C8FF;
+}
+
+
+#menu 
+{
+font-family: "Century Gothic", Arial;
+}
+
+#menu ul {
+margin:0;
+padding:0;
+list-style-type:none;
+text-align:center;
+}
+#menu li {
+float:left;
+margin:auto;
+padding:0;
+background-color: rgb(94,219,255);
+}
+#menu li a {
+display:block;
+width:100px;
+color:white;
+text-decoration:none;
+padding:5px;
+}
+#menu li a:hover {
+color:#09C8FF;
+}
+#menu ul li ul {
+display:none;
+}
+#menu ul li:hover ul {
+display:block;
+}
+#menu li:hover ul li {
+float:none;
+}
+#menu li ul {
+position:absolute;
+}
+#menu {
+height:50px;
+}
+
+
+
+.remindpage
+{
+font-family: "Century Gothic", Arial;
+font-size: 100%;
+color: rgb(180,180,180);
+}
+
+.quitshare
+{
+width: 30px;
+float: right;
+}
+
+.prespics
+{
+width: 75px;
+}
+
+.signuppres
+{
+float: left;
+text-align: left;
+width: 500px;
+height: 660px;
+margin-right: 20px;
+font-family: "Century Gothic", Arial;
+font-size: 100%;
+color: rgb(180,180,180);
+background-color: rgb(240,240,240 );
+border:1px solid #9FC6FF;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+}
+
+.signup
+{
+float: left;
+text-align: center;
+width: 388px;
+height: 660px;
+margin-left: 15px;
+font-family: "Century Gothic", Arial;
+font-size: 150%;
+color: rgb(180,180,180);
+background-color: rgb(240,240,240);
+border:1px solid #9FC6FF;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+}
+
+.signup a
+{
+color: rgb(180,180,180);
+text-decoration: underline;
+font-family: "Century Gothic", Arial;
+}
+
+.homebutton
+{
+position: relative;
+float: right;
+right: 10px;
+top: -20px;
+width: 45px;
+}
+
+.remindbutton
+{
+position: relative;
+right: 30px;
+float: right;
+width: 75px;
+}
+
+.renamebutton
+{
+position: relative;
+top: 3px;
+right: 30px;
+float: right;
+width: 75px;
+}
+
+.sharebutton
+{
+position: relative;
+right: 30px;
+float: right;
+width: 75px;
+}
+
+.getbutton
+{
+float: right;
+width: 75px;
+}
+
+.removebutton
+{
+float: right;
+width: 75px;
+}
+
+.logout
+{
+position: relative;
+right: 30px;
+float: right;
+width: 75px;
+}
+
+.settings
+{
+position: relative;
+right: 30px;
+float: right;
+width: 75px;
+}
+
+
+.sendlogo
+{
+float: right;
+position: relative;
+top: 20px;
+width: 75px;
+}
+
+.sendlogo_2
+{
+float: right;
+width: 75px;
+}
+
+
+.mydocsdelete
+{
+position: fixed;
+
+width: 300px;
+height: 150px;
+
+bottom: 10px;
+right : 10px;
+font-family: "Century Gothic", Arial;
+background-color: rgb(230,230,230);
+
+border:1px solid #9FC6FF;
+-moz-border-radius:10px 0;
+-webkit-border-radius:10px 0;
+border-radius:10px 0;
+}
+
+.sharesuccess
+{
+position: fixed;
+
+width: 350px;
+height: 200px;
+
+bottom: 10px;
+right : 10px;
+font-family: "Century Gothic", Arial;
+background-color: rgb(230,230,230);
+
+border:1px solid #9FC6FF;
+-moz-border-radius:10px 0;
+-webkit-border-radius:10px 0;
+border-radius:10px 0;
+}
+
+.mydocsupload
+{
+position: fixed;
+
+width: 300px;
+height: 150px;
+bottom: 10px;
+right : 10px;
+font-family: "Century Gothic", Arial;
+background-color: rgb(230,230,230);
+border:1px solid #9FC6FF;
+-moz-border-radius:10px 0;
+-webkit-border-radius:10px 0;
+border-radius:10px 0;
+}
+
+.reminderwidget
+{
+position: fixed;
+
+width: 400px;
+height: 250px;
+bottom: 10px;
+right : 10px;
+font-family: "Century Gothic", Arial;
+background-color: rgb(230,230,230);
+border:1px solid #9FC6FF;
+-moz-border-radius:10px 0;
+-webkit-border-radius:10px 0;
+border-radius:10px 0;
+}
+
+.loadingindicator
+{
+position: fixed;
+right: 50px;
+bottom: 25px;
+}
+
+
+.mydocsuploaddiv
+{
+position: relative;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.mydocsnav
+{
+background-color: rgb(230,230,230);
+position: absolute;
+top: 15px;
+left: 5px;
+width: 210px;
+height: 500px;
+text-align: left;
+font-family: "Century Gothic", Arial;
+color: rgb(180,180,180);
+border:1px solid #9FC6FF;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+}
+
+
+.fileexplorer
+{
+text-align: left;
+margin-left: 220px;
+margin-top: 65px;
+margin-right: 0px;
+width: 575px;
+font-family: "Century Gothic", Arial;
+color: rgb(180,180,180);
+}
+
+.fileexplorer img
+{
+width: 100px;
+}
+
+.onefile1
+{
+position: relative;
+padding: 10px;
+margin-left: 0px;
+margin-top: 30px;
+float: left;
+width: 100px;
+text-align: center;
+}
+
+
+.onefile2
+{
+position: relative;
+padding: 10px;
+margin-left: 30px;
+margin-top: 30px;
+float: left;
+width: 100px;
+text-align: center;
+}
+
+.onefile3
+{
+position: relative;
+padding: 10px;
+margin-left: 30px;
+margin-top: 30px;
+float: left;
+width: 100px;
+text-align: center;
+}
+
+.onefile4
+{
+position: relative;
+padding: 10px;
+margin-left: 30px;
+margin-top: 30px;
+float: left;
+width: 100px;
+text-align: center;
+}
+
+
+
+.fileexplorer a
+{
+text-decoration:none;
+}
+
+.signinbox
+{
+text-align: center;
+width: 46%;
+max-width: 400px;
+height: 500px;
+position: absolute;
+top: 70px;
+right: 3%;
+font-family: "Century Gothic", Arial;
+color: rgb(180,180,180);
+background-color: rgb(230,230,230);
+border:1px solid #9FC6FF;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+}
+.signinright
+{
+margin: auto;
+position: relative;
+top: 70px;
+font-family: "Century Gothic", Arial;
+color: rgb(180,180,180);
+background-color: rgb(230,230,230);
+}
+
+
+.signinright p
+{
+font-size: 150%;
+font-family: "Century Gothic", Arial;
+}
+.signinright a
+{
+color: rgb(180,180,180);
+text-decoration: underline;
+font-family: "Century Gothic", Arial;
+}
+
+.getstarted
+{
+width:10%;
+position: fixed;
+bottom: -2%;
+right: 0%;
+border: none;
+}
+
+.getstarted:hover
+{
+width:10%;
+position: fixed;
+bottom: -2%;
+right: 1%;
+border: none;
+}
+
+.welcome
+{
+	width: 60%;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+	max-width: 750px;
+}
+
+.cloud
+{
+    width: 40%;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+	max-width: 600px;
+}
+
+.functionalities
+{
+width:40%;
+position: absolute;
+top: 29%;
+right: 0%;
+}
+
+.functionalities p
+{
+font-size: 150%;
+font-family: "Century Gothic", Arial;
+color: rgb(201,201,201);
+}
+
+.raccourcis
+{
+position: absolute;
+left: 30%;
+bottom: 2%;
+text-align: center;
+max-width:120px;
+border: none;
+
+}
+.raccourcis:hover 
+{
+	position: absolute;
+	left: 30%;
+	bottom: 3%;
+text-align: center;
+max-width:120px;
+}
+.raccourcis2
+{
+	position: absolute;
+	right: 30%;
+	bottom: 2%;
+text-align: center;
+max-width:120px;
+border: none;
+}
+.raccourcis2:hover 
+{
+	position: absolute;
+	right: 30%;
+	bottom: 3%;
+text-align: center;
+max-width:120px;
+}
+
+.security
+{
+width: 90%;
+position: absolute;
+bottom: -40%;
+left: 5%;
+}
+.security img
+{
+float: left;
+}
+.security p
+{
+text-align: justify;
+position: relative;
+top: 10px;
+display: inline;
+bottom: 1000px;
+font-family: "Century Gothic", Arial;
+font-size:150%;
+color: rgb(201,201,201);
+}
+
+.binary
+{
+width: 90%;
+position: absolute;
+bottom: -80%;
+right: 5%;
+}
+.binary img
+{
+float: right;
+}
+.binary p
+{
+text-align: justify;
+position: relative;
+top: 10px;
+display: inline;
+/*bottom: 1000px;*/
+font-family: "Century Gothic", Arial;
+font-size:150%;
+color: rgb(201,201,201);
+}
+
+.fr
+{
+width: 90%;
+position: absolute;
+bottom: -120%;
+left: 5%;
+}
+.fr img
+{
+float: left;
+}
+.fr p
+{
+text-align: justify;
+position: relative;
+top: 10px;
+left: 3%;
+display: inline;
+/*bottom: 1000px;*/
+font-family: "Century Gothic", Arial;
+font-size:150%;
+color: rgb(201,201,201);
+}
+
+.cookies
+{
+width: 90%;
+position: absolute;
+bottom: -200%;
+left: 5%;
+}
+.cookies img
+{
+float: left;
+}
+.cookies p
+{
+text-align: justify;
+position: relative;
+top: 10px;
+left: 3%;
+display: inline;
+/*bottom: 1000px;*/
+font-family: "Century Gothic", Arial;
+font-size:150%;
+color: rgb(201,201,201);
+}
+
+
+.try
+{
+width: 90%;
+position: absolute;
+bottom: -240%;
+right: 5%;
+}
+.try img
+{
+float: right;
+}
+.try p
+{
+text-align: justify;
+position: relative;
+top: 10px;
+display: inline;
+/*bottom: 1000px;*/
+font-family: "Century Gothic", Arial;
+font-size:150%;
+color: rgb(201,201,201);
+}
+
+.editor_pres
+{
+width: 90%;
+position: absolute;
+bottom: -280%;
+right: 5%;
+}
+.editor_pres img
+{
+float: left;
+}
+.editor_pres p
+{
+text-align: justify;
+position: relative;
+top: 10px;
+display: inline;
+/*bottom: 1000px;*/
+font-family: "Century Gothic", Arial;
+font-size:150%;
+color: rgb(201,201,201);
+}
+
+
+.sharing
+{
+width: 90%;
+position: absolute;
+bottom: -160%;
+right: 5%;
+}
+.sharing img
+{
+float: right;
+}
+.sharing p
+{
+text-align: justify;
+position: relative;
+top: 10px;
+display: inline;
+/*bottom: 1000px;*/
+font-family: "Century Gothic", Arial;
+font-size:150%;
+color: rgb(201,201,201);
+}
+
+footer
+{
+position: absolute;
+left: 0px;
+bottom: -320%;
+font-size: 75%;
+font-family: "Century Gothic", Arial;
+width: 100%;
+background-color: rgb(220,220,220);
+}
+
+
+.thanks-for-signup
+{
+width: 60%;
+position: absolute;
+top: 0%;
+right: 20%;
+font-family: "Century Gothic", Arial;
+text-align: left;
+color: rgb(50,50,50);
+}

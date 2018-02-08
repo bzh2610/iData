@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /var/www/public/
+RewriteCond %{HTTPS} !=on
+RewriteRule (.*) http://idata.no-ip.info/publicdownload.php?file=$1
+RewriteCond %{HTTPS} =on
+RewriteRule (.*) https://idata.no-ip.info/publicdownload.php?file=$1
